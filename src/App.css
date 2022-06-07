@@ -1,38 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+img {
+  max-width: 100%;
+}
+
 .App {
   text-align: center;
+  background-color: #23252c;
+  font-family: Inter, Sans-serif;
+  padding: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info-img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buisness-card {
+  background-color: #1a1b21;
+  width: 30%;
+  margin: auto;
+  color: white;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 0.5rem;
+}
+
+.info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-personnal-name {
+  font-size: 1.5rem;
+}
+
+.info-personnal-job {
+  font-size: 1rem;
+  color: #f3bf99;
+}
+
+.info-personnal-portfolio {
   color: white;
+  text-decoration-line: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+.info-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-contact-email-link,
+.info-contact-linkedin-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #1a1b21;
+}
+
+.info-contact-email-link {
+  background-color: #d1d5db;
+}
+
+.info-contact-linkedin-link {
+  background-color: #5093e2;
+}
+
+.info-contact-email-btn-img,
+.info-contact-linkedin-btn-img {
+  width: 25%;
+}
+
+.main-container {
+  margin: 5% auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: justify;
+}
+
+.footer-container {
+  width: 100%;
+  margin: auto;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.5% 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.footer-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.footer-container img {
+  width: 100%;
 }
