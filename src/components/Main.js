@@ -1,9 +1,9 @@
 import React from "react";
 
-function Main() {
+function Main(props) {
   return (
-    <div className="main-container">
-      <div class="main-about">
+    <div className={"main-container"}>
+      <div className="main-about">
         <h2 className="main-about-title">About</h2>
         <p className="main-about-txt">
           I'm a web developer currently looking for an internship starting by
@@ -11,7 +11,7 @@ function Main() {
           you'll enjoy it as much as I liked building it !
         </p>
       </div>
-      <div class="main-interest">
+      <div className="main-interest">
         <h2 className="main-interest-title">Interests</h2>
         <p className="main-interest-txt">
           Football and travel lover, I also enjoy dancing on tecno music

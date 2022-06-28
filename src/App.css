@@ -34,26 +34,87 @@ img {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .info-content {
-  width: 80%;
+  margin: 5% auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-personnal {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .info-personnal-name {
   font-size: 1.5rem;
+  margin: 2.5% auto;
 }
 
 .info-personnal-job {
   font-size: 1rem;
+  margin: 0 auto;
   color: #f3bf99;
+}
+
+.dark .info-personnal-job {
+  color: #F77E21;
+}
+
+.info-button-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 5% auto;
+}
+
+
+.darkmode-button {
+  width: 20%;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5%;
+  display: flex;
+  box-sizing: content-box;
+  justify-content: flex-start;
+}
+
+.dark .darkmode-button {
+  background-color: #1a1b21;
+  justify-content: flex-end;
+}
+
+.button-circle {
+  background-color: black;
+  border-radius: 50%;
+  padding: 20%;
+}
+
+.dark .button-circle {
+  background-color: lightgray;
 }
 
 .info-personnal-portfolio {
   color: white;
   text-decoration-line: inherit;
+}
+
+.dark .info-personnal-portfolio {
+  color: #1a1b21;
+}
+
+.info-personnal-porfolio-link {
+  width: 30%;
 }
 
 .info-contact {
@@ -71,6 +132,10 @@ img {
   border-radius: 0.5rem;
   text-decoration: none;
   color: #1a1b21;
+}
+
+.dark .info-contact-email-link {
+  background-color: gray;
 }
 
 .info-contact-email-link {
@@ -107,6 +172,10 @@ img {
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
+.dark .footer-container {
+  background-color: gray;;
+}
+
 .footer-container a {
   display: flex;
   justify-content: center;
@@ -116,4 +185,10 @@ img {
 
 .footer-container img {
   width: 100%;
+}
+
+
+.dark {
+  background-color: lightgray;
+  color: #1a1b21;
 }
