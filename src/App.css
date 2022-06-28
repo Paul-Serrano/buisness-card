@@ -67,7 +67,7 @@ img {
 }
 
 .dark .info-personnal-job {
-  color: #F77E21;
+  color: #F47D27;
 }
 
 .info-button-block {
@@ -95,13 +95,13 @@ img {
 }
 
 .button-circle {
-  background-color: black;
+  background-color: #1a1b21;
   border-radius: 50%;
   padding: 20%;
 }
 
 .dark .button-circle {
-  background-color: lightgray;
+  background-color: #F5F5F5;
 }
 
 .info-personnal-portfolio {
@@ -121,6 +121,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
 }
 
 .info-contact-email-link,
@@ -135,7 +136,7 @@ img {
 }
 
 .dark .info-contact-email-link {
-  background-color: gray;
+  background-color: #D5D4D8;
 }
 
 .info-contact-email-link {
@@ -173,7 +174,7 @@ img {
 }
 
 .dark .footer-container {
-  background-color: gray;;
+  background-color: #D5D4D8;
 }
 
 .footer-container a {
@@ -189,6 +190,6 @@ img {
 
 
 .dark {
-  background-color: lightgray;
+  background-color: #F5F5F5;
   color: #1a1b21;
 }
